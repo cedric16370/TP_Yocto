@@ -10,7 +10,7 @@ Ensuite on configure le local.conf puis on créer une nouvelle layers qui contie
 
 ![image](https://user-images.githubusercontent.com/72381443/118412474-7b9c6d00-b69a-11eb-9c67-fea9606c1067.png)
 
-Pour lancer le build il faut lancer la commande "bitbake build ynov-rpi4-image.bb"
+Pour lancer le build il faut lancer la commande "bitbake ynov-rpi4-image.bb"
 
 Pour finir uploader l'image sur carte micro SD vers la Raspberry Pi 3 dd if=MonImage.rootfs.rpi-sdimg of=/dev/sdb bs=4M
 
