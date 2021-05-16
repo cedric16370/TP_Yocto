@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /home/cedric/build-ynov/tmp
+SSTATE_DIR /home/cedric/build-ynov/sstate-cache
+NATIVELSBSTRING ubuntu-20.04
